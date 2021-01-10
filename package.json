@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"version": "1.0",
+	"version": "0.1.0",
 	"main": "build/js/tempusdominus-bootstrap-4.js",
 	"name": "bootstrap4-datetimepicker",
 	"author": "Bruno Cassol",
