@@ -20,6 +20,9 @@
 		"type": "git",
 		"url": "https://github.com/brunocassol/bootstrap4-datetimepicker.git"
 	},
+	"files": [
+		"**"
+	],
 	"bugs": {
 		"url": "https://github.com/brunocassol/bootstrap4-datetimepicker/issues"
 	},
