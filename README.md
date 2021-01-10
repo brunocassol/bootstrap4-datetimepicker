@@ -22,6 +22,10 @@ I just started organizing the project. **Please do not try to use this yet**.
 - [ ] Setup npm package.
 - [ ] Switch from discontinued [momment.js](https://momentjs.com/docs/#/-project-status/) to another date library. Perhaps [Day,js](https://github.com/iamkun/dayjs)?
 - [ ] Setup CDN so people can use it easily.
+- [ ] Simplify project
+	- Attempt to remove dependency on Grunt. Can we build this simply with npm scripts?
+	- Also try to simplify stuff. Move docs/index.html to /index.html
+	- Remove as many dependencies as possible
 - [ ] Cleanup and change theme of documentation github page.
 - [ ] Take a look at the dependencies section in `package.json` and try to cleanup. Specially understand if this needs `tempusdominus/core`. If so, copy that lib inside this to simplify building and keep the projects independent otherwise remove the dependency (https://nodejs.org/es/blog/npm/peer-dependencies/):
 ```

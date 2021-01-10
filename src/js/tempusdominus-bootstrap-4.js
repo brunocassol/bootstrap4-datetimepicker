@@ -504,7 +504,7 @@ const TempusDominusBootstrap4 = ($ => { // eslint-disable-line no-unused-vars
 				daysViewHeader.eq(2).addClass('disabled');
 			}
 
-			currentDate = this._viewDate.clone().startOf('M').startOf('w').add(12, 'hours');
+			currentDate = this._viewDate.clone().startOf('M').startOf('w').startOf('d');
 
 			for (i = 0; i < 42; i++) {
 				//always display 42 days (should show 6 weeks)
