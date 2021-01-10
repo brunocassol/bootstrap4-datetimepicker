@@ -11,6 +11,11 @@ I just started organizing the project. **Please do not try to use this yet**.
 # Todo
 
 - [ ] Take a look and merge PRs from [tempusdominus/bootstrap-4](https://github.com/tempusdominus/bootstrap-4) in this repo.
+	- Weird. These PR seems to already be applied although they are open:
+		- 332 (minification of CSS)
+		- 331 (fix for blanking cursor when clicking day on calendar)
+		- 329 (Multidate mode fixes)
+	- 
 - [x] Setup github page with demos. Done: https://brunocassol.github.io/bootstrap4-datetimepicker/
 - [x] Update package.json with new info and package name.
 - [ ] Document usage here on README.

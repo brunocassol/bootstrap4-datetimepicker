@@ -70,9 +70,26 @@
 		"moment-timezone": "^0.5.31",
 		"onchange": "^7.0.2",
 		"tempusdominus": "^5.16.0",
-		"uglify-js": "^3.11.0"
+		"uglify-js": "^3.11.0",
+		"prettier": "^2.2.1"
 	},
-	"homepage": "https://tempusdominus.github.io/bootstrap-4/",
+	"prettier": {
+		"phpVersion": "7.4",
+		"trailingCommaPHP": true,
+		"braceStyle": "1tbs",
+		"useTabs": true,
+		"tabWidth": 3,
+		"trailingComma": "es5",
+		"printWidth": 200,
+		"semi": true,
+		"proseWrap": "never",
+		"singleQuote": true,
+		"quoteProps": "consistent",
+		"bracketSpacing": false,
+		"arrowParens": "always",
+		"endOfLine": "lf"
+	},
+	"homepage": "https://brunocassol.github.io/bootstrap4-datetimepicker/",
 	"keywords": [
 		"bootstrap",
 		"datepicker",
@@ -82,7 +99,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tempusdominus/bootstrap-4.git"
+		"url": "https://github.com/brunocassol/bootstrap4-datetimepicker.git"
 	},
 	"version": "5.39.0",
 	"files": [
