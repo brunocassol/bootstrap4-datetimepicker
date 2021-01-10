@@ -1,12 +1,30 @@
 {
 	"license": "MIT",
+	"version": "0.1",
 	"main": "build/js/tempusdominus-bootstrap-4.js",
 	"name": "bootstrap4-datetimepicker",
-	"author": "Community",
+	"author": "Bruno Cassol",
 	"contributors": [
-		"Bruno Cassol",
 		"Jonathan Peterson (Original author)",
 		"Anton Bagdatyev (Tonix)"
+	],
+	"homepage": "https://brunocassol.github.io/bootstrap4-datetimepicker/",
+	"keywords": [
+		"bootstrap",
+		"datepicker",
+		"datetimepicker",
+		"timepicker",
+		"moment"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/brunocassol/bootstrap4-datetimepicker.git"
+	},
+	"files": [
+		"build",
+		"src/js/**/*.js",
+		"src/sass/**/*.scss",
+		"Gruntfile.js"
 	],
 	"bugs": {
 		"url": "https://github.com/brunocassol/bootstrap4-datetimepicker/issues"
@@ -74,8 +92,6 @@
 		"prettier": "^2.2.1"
 	},
 	"prettier": {
-		"phpVersion": "7.4",
-		"trailingCommaPHP": true,
 		"braceStyle": "1tbs",
 		"useTabs": true,
 		"tabWidth": 3,
@@ -89,26 +105,4 @@
 		"arrowParens": "always",
 		"endOfLine": "lf"
 	},
-	"homepage": "https://brunocassol.github.io/bootstrap4-datetimepicker/",
-	"keywords": [
-		"bootstrap",
-		"datepicker",
-		"datetimepicker",
-		"timepicker",
-		"moment"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/brunocassol/bootstrap4-datetimepicker.git"
-	},
-	"version": "5.39.0",
-	"files": [
-		"build",
-		"src/js/**/*.js",
-		"src/sass/**/*.scss",
-		"Gruntfile.js"
-	],
-	"browserslist": [
-		"> .05%"
-	]
 }

@@ -1,3 +1,18 @@
+// Import bootstrap variables including default color palette and fonts
+@import "../../node_modules/bootstrap/scss/_functions.scss";
+@import "../../node_modules/bootstrap/scss/_variables.scss";
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
 $bs-datetimepicker-timepicker-font-size: 1.2em !default;
 $bs-datetimepicker-active-bg: $blue !default;
 $bs-datetimepicker-active-color: $white !default;
