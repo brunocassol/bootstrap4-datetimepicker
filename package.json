@@ -33,14 +33,6 @@
 		"moment-timezone": "^0.5.31",
 		"popper.js": "^1.16.1"
 	},
-	"peerDependencies": {
-		"bootstrap": ">=4.5.2",
-		"jquery": "^3.5.1",
-		"popper.js": "^1.16.1",
-		"moment": "^2.29.0",
-		"moment-timezone": "^0.5.31",
-		"tempusdominus-core": "5.19.0"
-	},
 	"scripts": {
 		"change-version": "node grunt/change-version.js",
 		"clean-css": "cleancss --skip-advanced --source-map --output dist/css/bootstrap.min.css dist/css/bootstrap.css && cleancss --skip-advanced --source-map --output dist/css/bootstrap-grid.min.css dist/css/bootstrap-grid.css && cleancss --skip-advanced --source-map --output dist/css/bootstrap-reboot.min.css dist/css/bootstrap-reboot.css",
